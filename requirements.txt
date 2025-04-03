@@ -1,1 +1,5 @@
-git+https://github.com/DeekshithSH/TGFileStream/
+aiohttp
+yarl
+telethon
+cryptg
+python-dotenv
