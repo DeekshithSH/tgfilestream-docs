@@ -27,12 +27,13 @@
             "value": "0.0.0.0"
         },
         "PUBLIC_URL": {
-            "description": "(eg: https://myapp.herokuapp.com) - Your Heroku App URL.",
+            "description": "(eg: https://myapp.herokuapp.com) - Your Heroku App URL. Update it after deploying",
             "required": false
         },
         "TRUST_FORWARD_HEADERS": {
             "description": "(defaults to false) - Whether or not to trust X-Forwarded-For headers when logging requests.",
-            "required": false
+            "required": false,
+            "value": "true"
         },
         "DEBUG": {
             "description": "(defaults to false) - Whether or not to enable extra prints.",
