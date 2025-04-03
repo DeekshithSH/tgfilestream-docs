@@ -1,0 +1,34 @@
+services:
+  - type: web
+    name: TGFileStream
+    runtime: python
+    plan: free
+    region: oregon
+    buildCommand: pip install -r requirements.txt
+    startCommand: python3 main.py
+    healthCheckPath: /
+    envVars:
+      - key: TG_API_ID
+        sync: false
+      - key: TG_API_HASH
+        sync: false
+      - key: TG_BOT_FATHER_TOKEN
+        sync: false
+      - key: TRUST_FORWARD_HEADERS
+        sync: false
+      - key: DEBUG
+        sync: false
+      - key: REQUEST_LIMIT
+        sync: false
+      - key: CONNECTION_LIMIT
+        sync: false
+      - key: TG_SESSION_NAME
+        sync: false
+      - key: PUBLIC_URL
+        sync: false
+      - key: TG_START_MESG
+        value: "Send an image or file to get a link to download it"
+      - key: TG_G_C_MESG
+        value: "Sorry. But, I only work in private."
+      - key: HOST
+        value: "0.0.0.0"
