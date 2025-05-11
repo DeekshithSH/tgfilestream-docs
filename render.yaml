@@ -12,7 +12,7 @@ services:
         sync: false
       - key: TG_API_HASH
         sync: false
-      - key: TG_BOT_FATHER_TOKEN
+      - key: TG_BOT_TOKEN
         sync: false
       - key: TRUST_FORWARD_HEADERS
         sync: false
@@ -32,3 +32,5 @@ services:
         value: "Sorry. But, I only work in private."
       - key: HOST
         value: "0.0.0.0"
+      - key: CACHE_SIZE
+        sync: false

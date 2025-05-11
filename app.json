@@ -21,6 +21,10 @@
             "description": "(required) - Your Telegram API hash.}",
             "required": true
         },
+        "TG_BOT_TOKEN": {
+            "description": "(required) - Your Telegram Bot Token",
+            "required": true
+        },
         "HOST": {
             "description": "(defaults to localhost) - The host to listen at.",
             "required": true,
@@ -58,12 +62,12 @@
             "value": "Sorry. But, I only work in private."
         },
         "TG_SESSION_NAME": {
-            "description": "(defaults to tg filestream) - The name of the Telethon session file to use.",
+            "description": "(defaults to tgfs) - The name of the Telethon session file to use.",
             "required": false
         },
-        "TG_BOT_FATHER_TOKEN": {
-            "description": "(defaults to None) - This option is mutually exclusive to TG_SESSION_NAME, and if set, the client will login as a bot, instead of an user.",
-            "required": true
+        "CACHE_SIZE": {
+            "description": "(defaults to 128) - The number of FileInfo objects (messages) to cache",
+            "required": false
         }
     },
     "buildpacks": [
