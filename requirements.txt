@@ -1,1 +1,1 @@
-https://github.com/DeekshithSH/TGFileStream/releases/download/v0.1.4/tgfs-0.1.4-py3-none-any.whl
+https://github.com/DeekshithSH/tg-filestream/releases/download/v0.1.4/tgfs-0.1.4-py3-none-any.whl

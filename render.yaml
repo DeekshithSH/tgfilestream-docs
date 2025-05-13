@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: TGFileStream
+    name: tg-filestream
     runtime: python
     plan: free
     region: oregon

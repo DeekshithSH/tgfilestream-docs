@@ -9,8 +9,8 @@
         "telegram",
         "mtproto"
     ],
-    "website": "https://github.com/DeekshithSH/TGFileStream",
-    "repository": "https://github.com/DeekshithSH/TGFileStream",
+    "website": "https://github.com/DeekshithSH/tg-filestream",
+    "repository": "https://github.com/DeekshithSH/tg-filestream",
     "success_url": "/",
     "env": {
         "TG_API_ID": {
